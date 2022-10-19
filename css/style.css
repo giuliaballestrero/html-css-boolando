@@ -36,6 +36,12 @@ header ul li {
     margin-right: 1rem;
 }
 
+.account .fa {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 1rem;
+}
+
 /*Main*/
 
 main .product-card {
@@ -170,7 +176,7 @@ footer ul li {
     padding-right: 1rem;
 }
 
-.fa {
+footer.fa {
     text-decoration: none;
     color: #ffffff;
     display: inline;
