@@ -42,19 +42,25 @@ main .product-card {
     justify-content: space-between;
     height: 500px;
     width: calc(100% / 3);
-    background-color: blue;
     display: inline-block;
     width: calc(100% / 3);
     margin-top: 3rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 
     }
 
     main .product{
-        background-color: #ff6900;
         width: 100%;
         height: 85%;
+        background-color: #dddddd;
         position: relative;
+        text-align: center;
+    }
+
+    main .product img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 
     main .product span {
@@ -63,17 +69,50 @@ main .product-card {
 
     main .discount {
         left: 0;
-        bottom: 10%;
+        bottom: 7%;
+        background-color: #ff0000;
+        color: #ffffff;
+        padding-left: 0.8rem; ;
+        padding-right: 0.8rem;
     }
 
     main .sust {
         left: 20%;
-        bottom: 10%;
+        bottom: 7%;
+        background-color: #008000;
+        color: #ffffff;
+        padding-left: 0.8rem; ;
+        padding-right: 0.8rem;
+    }
+
+    main .only-sust {
+        left: 0;
+        bottom: 7%;
+        background-color: #008000;
+        color: #ffffff;
+        padding-left: 0.8rem; ;
+        padding-right: 0.8rem;
     }
 
     main .wishlist {
         top: 5%;
         right: 0;
+        background-color: #ffffff;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    p.product-title {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    main div span {
+
+    }
+
+    span.red-text {
+        color:#ff0000;
     }
 
 
