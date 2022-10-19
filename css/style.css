@@ -101,6 +101,13 @@ main .product-card {
         font-size: 2rem;
     }
 
+    /*Hover*/
+
+    .wishlist:hover {
+        color: #ff0000;
+    }
+
+
     p.product-title {
         text-transform: uppercase;
         font-weight: bold;
@@ -147,3 +154,4 @@ footer ul li {
     padding-top: 1rem;
     padding-right: 1rem;
 }
+
