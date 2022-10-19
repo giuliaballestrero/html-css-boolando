@@ -62,6 +62,33 @@ main .product-card {
         object-fit: cover;
     }
 
+     /*img hover*/
+
+    #levis:hover{
+        content:url("../img/1b.webp");
+    }
+    #guess:hover{
+        content:url("../img/2b.webp");
+    }
+    
+    #suit:hover{
+        content:url("../img/3b.webp");
+    }
+    
+    #levistee:hover{
+        content:url("../img/4b.webp");
+    }
+    
+    #longdress:hover{
+        content:url("../img/5b.webp");
+    }
+    
+    #blacksweat:hover{
+        content:url("../img/6b.webp");
+    }
+    
+    /*end img hover*/
+
     main .product span {
         position: absolute;
     }
@@ -111,10 +138,6 @@ main .product-card {
     p.product-title {
         text-transform: uppercase;
         font-weight: bold;
-    }
-
-    main div span {
-
     }
 
     span.red-text {
